@@ -1,5 +1,7 @@
+import { Button } from "bootstrap";
 import { Link } from "react-router-dom";
-import image from "../../images/background-home.jpg"
+import style from "./Navbar.css"
+import image from "../../images/background-home.jpg";
 
 function Navbar() {
   const contents = [
@@ -45,8 +47,26 @@ function Navbar() {
             <i className="fas fa-bars"></i>
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav me-auto">
-              {renderContent()}
+            <ul className="navbar-nav me-auto">{renderContent()}</ul>
+            <ul className="navbar-nav d-flex flex-row">
+              <li className="nav-item me-3 me-lg-0">
+                <Link
+                  className="btn btn-outline-success"
+                  to="/register"
+                  style={{ margin: "5px", width: "100px" }}
+                >
+                  Register
+                </Link>
+              </li>
+              <li className="nav-item me-3 me-lg-0">
+                <Link
+                  className="btn btn-success"
+                  to="/login"
+                  style={{ margin: "5px", width: "100px" }}
+                >
+                  Login
+                </Link>
+              </li>
             </ul>
           </div>
         </div>
@@ -56,8 +76,7 @@ function Navbar() {
           id="intro"
           className="bg-image vh-100"
           style={{
-            backgroundImage:
-              `url(${image})`,
+            backgroundImage: `url(${image})`,
             backgroundRepeat: "no-repeat",
             backgroundSize: "cover",
             backgroundPosition: "center",

@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import image from "../../images/background-home.jpg"
 
 function Navbar() {
   const contents = [
@@ -56,7 +57,7 @@ function Navbar() {
           className="bg-image vh-100"
           style={{
             backgroundImage:
-              'url("https://img.freepik.com/free-photo/served-christmas-table-setting-dark-tones-with-golden-deco_1220-6601.jpg?w=900&t=st=1664511226~exp=1664511826~hmac=d680f04060b732a75447c75d9bd3e79ee0c3bb7c3d114ac29447df1925b4d903")',
+              `url(${image})`,
             backgroundRepeat: "no-repeat",
             backgroundSize: "cover",
             backgroundPosition: "center",

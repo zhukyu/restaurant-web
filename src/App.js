@@ -17,6 +17,7 @@ function App() {
               </DefaultLayout>
             }
           />
+          <Route path="/login" element={<Login/>}></Route>
         </Routes>
       </div>
     </Router>

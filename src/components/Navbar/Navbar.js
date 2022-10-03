@@ -30,11 +30,11 @@ function Navbar() {
     <header>
       <nav className="navbar navbar-expand-lg navbar-light fixed-top mask-custom shadow-0">
         <div className="container">
-          <a className="navbar-brand" href="#!">
+          <Link className="navbar-brand" to="/">
             <span style={{ color: "#33FF99", fontWeight: "bold" }}>
               Restaurant
             </span>
-          </a>
+          </Link>
           <button
             className="navbar-toggler"
             type="button"
@@ -53,7 +53,7 @@ function Navbar() {
                 <Link
                   className="btn btn-outline-success"
                   to="/register"
-                  style={{ margin: "5px", width: "100px" }}
+                  style={{ margin: "0 5px", width: "100px" }}
                 >
                   Register
                 </Link>
@@ -62,7 +62,7 @@ function Navbar() {
                 <Link
                   className="btn btn-success"
                   to="/login"
-                  style={{ margin: "5px", width: "100px" }}
+                  style={{ margin: "0 5px", width: "100px" }}
                 >
                   Login
                 </Link>

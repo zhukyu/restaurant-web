@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
-
+import "./Card.css";
 function Card({ props }) {
   return (
-    <div className="card" style={{ width: "288px", height: "330px" }}>
+    <div className="card" style={{ width: "288px", minHeight: "330px" }}>
       <img
         style={{ height: "220px" }}
         src={props.image}
@@ -11,10 +11,14 @@ function Card({ props }) {
       />
       <div className="card-body">
         <h5 className="card-title">{props.name}</h5>
-        {/* <p className="card-text">
-            {props.description}
-          </p> */}
-        <Link style={{width: "100%"}} className="btn btn-outline-success" to={`/restaurant/${props.id}`}>
+        <span className="star-rating">
+          <span style={{ width: `${props.rating}` }}></span>
+        </span>
+        <Link
+          style={{ width: "100%" }}
+          className="btn btn-outline-success"
+          to={`/restaurant/${props.id}`}
+        >
           VIEW
         </Link>
       </div>

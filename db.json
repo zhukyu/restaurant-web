@@ -6,7 +6,8 @@
       "description": "The only thing better than going to a bar to watch a Blue Jays game is going to a bar that has floor-to-ceiling windows and overlooks the Rogers Centre. On a menu arranged by baseball puns, Sportsnet Grill, located inside the Toronto Marriott City Centre Hotel, serves up unique spins on typical pub cuisine, such as pulled pig mac cheese. Substitute pan-seared fish with coconut lime butter for the peanuts and Cracker Jacks, and cheer on the lads in blue with fellow foodies. Order a drink from the extensive beer, wine, and cocktail menu if the game becomes too intense. Sportsnet Grill is open all year round and has a beer garden in summer and a cozy atmosphere during the winter sports season.",
       "address": "1-1 Blue Jays Way Toronto Marriott City Centre Hotel, Toronto, Ontario M5V 1J4 Canada",
       "phoneNumber": "+1 416-341-5029",
-      "image": "https://www.americarestaurant.ca/wp-content/uploads/2022/04/Sportsnet-Grill.jpg"
+      "image": "https://www.americarestaurant.ca/wp-content/uploads/2022/04/Sportsnet-Grill.jpg",
+      "rating": "80%"
     },
     {
       "id": 2,
@@ -14,7 +15,8 @@
       "description": "With its sky-high ceilings and bright white lighting, the carbon bar makes you feel like you’ve walked into the future. This facility has a lot of history (it was originally a Disney dancing studio!). Today, it’s all about the delectable barbecue nibbles, such as the wood-fired sweet and spicy ribs with coleslaw and dill pickles. There are also a variety of nibbles and well-balanced specialty drinks here. The Green Room, an upstairs private dining area with a fantastic view of the dining room, is ideal for bigger parties, with a chef’s table option for a party of up to 14, or a chef’s table option for a group of up to 14.",
       "address": "99 Queen St E, Toronto, Ontario M5C 1S1 Canada",
       "phoneNumber": "+1 416-947-7000",
-      "image": "https://www.americarestaurant.ca/wp-content/uploads/2022/04/The-Carbon-Bar.jpg"
+      "image": "https://www.americarestaurant.ca/wp-content/uploads/2022/04/The-Carbon-Bar.jpg",
+      "rating": "100%"
     },
     {
       "id": 3,
@@ -22,7 +24,16 @@
       "description": "At Ruth’s Chris Steak House, visitors can enjoy a wide variety of meals, including USDA prime steaks, fresh fish and poultry, creative side dishes, outstanding desserts, and an award-winning wine selection. Your steak at Ruth’s Chris is hand-picked from the best USDA Prime beef available. At the restaurant, it is aged to perfection and chopped by hand. The steak is then grilled to your precise specification at a blistering 1800°F to seal in the corn-fed flavour and natural fluids. It’s served sizzling and hot. In fact, you can hear your steak sizzling from the other side of the room.",
       "address": "145 Richmond St W Hilton Toronto Hotel, Toronto, Ontario M5H 2L2 Canada",
       "phoneNumber": "+1 416-955-1455",
-      "image": "https://www.americarestaurant.ca/wp-content/uploads/2022/04/Ruths-Chris-Steak-House.jpg"
+      "image": "https://www.americarestaurant.ca/wp-content/uploads/2022/04/Ruths-Chris-Steak-House.jpg",
+      "rating": "50%"
     }
-  ]
+  ],
+  "restaurant": {
+    "id": 1,
+    "name": "Sportsnet Grill",
+    "description": "The only thing better than going to a bar to watch a Blue Jays game is going to a bar that has floor-to-ceiling windows and overlooks the Rogers Centre. On a menu arranged by baseball puns, Sportsnet Grill, located inside the Toronto Marriott City Centre Hotel, serves up unique spins on typical pub cuisine, such as pulled pig mac cheese. Substitute pan-seared fish with coconut lime butter for the peanuts and Cracker Jacks, and cheer on the lads in blue with fellow foodies. Order a drink from the extensive beer, wine, and cocktail menu if the game becomes too intense. Sportsnet Grill is open all year round and has a beer garden in summer and a cozy atmosphere during the winter sports season.",
+    "address": "1-1 Blue Jays Way Toronto Marriott City Centre Hotel, Toronto, Ontario M5V 1J4 Canada",
+    "phoneNumber": "+1 416-341-5029",
+    "image": "https://www.americarestaurant.ca/wp-content/uploads/2022/04/Sportsnet-Grill.jpg"
+  }
 }

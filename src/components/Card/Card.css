@@ -1,0 +1,21 @@
+.star-rating span:before {
+    color: #f9bf08;
+}
+
+.star-rating:before,
+.star-rating span:before {
+    content: '★★★★★';
+    line-height: 1;
+}
+
+.star-rating {
+    position: relative;
+    top: -2px;
+}
+
+.star-rating span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+}

@@ -2,7 +2,10 @@ import { Link } from "react-router-dom";
 import "./Card.css";
 function Card({ props }) {
   return (
-    <div className="card" style={{ width: "288px", minHeight: "330px" }}>
+    <div
+      className="card"
+      style={{ width: "350px", minHeight: "300px", margin: "auto" }}
+    >
       <img
         style={{ height: "220px" }}
         src={props.image}

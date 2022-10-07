@@ -8,15 +8,13 @@ function Home() {
     <div>
       <div className="jumbotron jumbotron-fluid">
         <div className="container">
-          <h1 className="display-4">Famous Restaurant</h1>
+          <h1 class="text-center fw-bold display-1 mb-5">
+            Famous <span class="text-danger">Restaurant</span>
+          </h1>
         </div>
       </div>
 
       <MultiCard />
-
-      {/* <div className="d-flex flex-row justify-content-center">
-        {renderCard()}
-      </div> */}
     </div>
   );
 }

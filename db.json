@@ -26,6 +26,24 @@
       "phoneNumber": "+1 416-955-1455",
       "image": "https://www.americarestaurant.ca/wp-content/uploads/2022/04/Ruths-Chris-Steak-House.jpg",
       "rating": "50%"
+    },
+    {
+      "id": 4,
+      "name": "Ruth’s Chris Steak House",
+      "description": "At Ruth’s Chris Steak House, visitors can enjoy a wide variety of meals, including USDA prime steaks, fresh fish and poultry, creative side dishes, outstanding desserts, and an award-winning wine selection. Your steak at Ruth’s Chris is hand-picked from the best USDA Prime beef available. At the restaurant, it is aged to perfection and chopped by hand. The steak is then grilled to your precise specification at a blistering 1800°F to seal in the corn-fed flavour and natural fluids. It’s served sizzling and hot. In fact, you can hear your steak sizzling from the other side of the room.",
+      "address": "145 Richmond St W Hilton Toronto Hotel, Toronto, Ontario M5H 2L2 Canada",
+      "phoneNumber": "+1 416-955-1455",
+      "image": "https://www.americarestaurant.ca/wp-content/uploads/2022/04/Ruths-Chris-Steak-House.jpg",
+      "rating": "50%"
+    },
+    {
+      "id": 5,
+      "name": "Ruth’s Chris Steak House",
+      "description": "At Ruth’s Chris Steak House, visitors can enjoy a wide variety of meals, including USDA prime steaks, fresh fish and poultry, creative side dishes, outstanding desserts, and an award-winning wine selection. Your steak at Ruth’s Chris is hand-picked from the best USDA Prime beef available. At the restaurant, it is aged to perfection and chopped by hand. The steak is then grilled to your precise specification at a blistering 1800°F to seal in the corn-fed flavour and natural fluids. It’s served sizzling and hot. In fact, you can hear your steak sizzling from the other side of the room.",
+      "address": "145 Richmond St W Hilton Toronto Hotel, Toronto, Ontario M5H 2L2 Canada",
+      "phoneNumber": "+1 416-955-1455",
+      "image": "https://www.americarestaurant.ca/wp-content/uploads/2022/04/Ruths-Chris-Steak-House.jpg",
+      "rating": "50%"
     }
   ],
   "restaurant": {

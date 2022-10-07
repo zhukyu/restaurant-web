@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import DefaultLayout from "./components/Layout/DefaultLayout/DefaultLayout";
+import AddRestaurant from "./pages/AddRestaurant/AddRestaurant";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
@@ -23,6 +24,14 @@ function App() {
             element={
               <DefaultLayout>
                 <Restaurant />
+              </DefaultLayout>
+            }
+          />
+          <Route
+            path="/addRestaurant"
+            element={
+              <DefaultLayout>
+                <AddRestaurant />
               </DefaultLayout>
             }
           />

@@ -13,6 +13,10 @@ function Navbar() {
       name: "List",
       href: "/list",
     },
+    {
+      name: "Create",
+      href: "/addRestaurant"
+    }
   ];
   const renderContent = () => {
     return contents.map((item, index) => {
